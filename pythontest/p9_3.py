@@ -10,4 +10,6 @@ matplotlib.rcParams['axes.unicode_minus'] = False
 fig, ax = plt.subplots()
 ax.plot(10*np.random.randn(100), 10*np.random.randn(100), 'o')
 ax.set_title('Using hyphen instead of Unicode minus')
+plt.xlabel('X-Axis')
+plt.ylabel('Y-Axis')
 plt.show()
